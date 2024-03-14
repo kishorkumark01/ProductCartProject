@@ -1,0 +1,153 @@
+
+.navs{
+    position: relative;
+    top: 0px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border: 2px solid darkblue;
+    background-color: #378CE7;
+    width: 100%;
+    height: 70px;
+    
+}
+.navs ul li{
+    display: inline ;    
+    padding: 25px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+   
+    
+}
+.navs ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.navs ul li a:hover{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.navs img{
+    width: 50px;
+    padding-right: 15px;
+}
+.navs input{
+    width: 25%;
+    height: 35%;
+    border-radius: 10px;
+}
+.navs h3{
+    position: absolute;
+    left: 0px;
+    padding-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: black;
+}
+/* .outer{
+   position: relative;
+   
+   left: 30%;
+   width: 550px;
+   height: 550px;
+   border: 2px solid black;
+   border-radius: 25px;
+   
+
+} */
+
+.outer1{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    /* border: 2px solid black; */
+    background-color: #D7DBDD;
+    border-radius: 15px;
+    
+}
+
+
+
+
+.outer2{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    /* border: 2px solid black; */
+    background-color: #D7DBDD;
+    border-radius: 15px;
+}
+.outer3{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    /* border: 2px solid black; */
+    background-color: #D7DBDD;
+    border-radius: 15px;
+}
+.outer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.inner1{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+.inner2{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+.inner3{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+.mobile{
+    position: absolute;
+    width: 250px;
+    height: 150px;
+
+    /* text-align: center;
+    background-color:#F9E79F; */
+    border-radius: 10px ;
+}
+.checked{
+    color: orange;
+}
+.class2{
+    padding-top: 40px;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.inner3 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.inner3 button{
+    position: relative;
+    width: 150px;
+    height:40px;
+    border-radius:10px;
+    background-color:#378CE7;
+}
+button{
+    text-decoration: none;
+}
